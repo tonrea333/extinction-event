@@ -45,7 +45,7 @@ function onClick3(e){
 }
 const button = document.querySelector("#destroy-all");
 button.addEventListener("click", onClick4);
-
+//function to create all previous functions to all list and image elements
 function onClick4(){
 featureOl.style.textDecoration = "line-through";
 featuretwoOl.style.opacity = ".1";
